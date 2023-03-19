@@ -1,0 +1,242 @@
+{
+    "learning_res": [
+        [
+            {"identifier": "websites"},
+            {
+                "name": "scrimba.com",
+                "link": "https://scrimba.com/",
+                "description": "",
+                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "languages": ["HTML", "CSS", "JS", "ReactJS", "UI/UX", "others"],
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "freecodecamp.org",
+                "link": "https://www.freecodecamp.org/",
+                "description": "",
+                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "languages": ["Web DEV", "JS-deep dive","Data visualization", "Front/Backend","data analysis",  "Machine learning"],
+                "fav": "most ppl reccommend",
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "projects"},
+            {
+                "name": "frontendmentor.io",
+                "link": "https://www.frontendmentor.io/",
+                "fav": "free and paid challenge projects",
+                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "featured": false
+            },
+            
+            {
+                "name": "frontendpractice.com",
+                "link": "https://www.frontendpractice.com/",
+                "fav": "recreate real websites",
+                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "featured": true
+            }
+        ],
+        [
+            {"identifier": "youtube"},
+            {
+                "name": "Kevin Powell",
+                "link": "https://www.youtube.com/kepowob",
+                "description": "",
+                "tags": ["good teacher", "whats new in CSS", "amazing css tricks", "learn css"],
+                "languages": ["Web DEV", "css-deep dive"],
+                "fav": "perfect for css"
+            },
+            {
+                "name": "WebDevSimplified",
+                "link": "https://www.youtube.com/c/WebDevSimplified",
+                "description": "he can explain hard concepts in simple terms",
+                "tags": ["good teacher", "simple explanation", "amazing js knowledge", "web dev"],
+                "languages": ["Web DEV", "JS-deep dive"],
+                "fav": "perfect for hard JS concepts"
+            },
+            {
+                "name": "Fireship",
+                "link": "https://www.youtube.com/c/Fireship",
+                "description": "You want to learn while laughing, this is you guy. He can show you how to cool stuff with pretty much any language but he is advanced level. And the dude packs an insane amount of sarcasm.",
+                "tags": ["saracsm 101", "whats new in CS", "complex/hard/big concepts", "5-15 min videos"],
+                "languages": ["All languages"],
+                "fav": "when you decide to go pro/have a laugh"
+            },
+            {
+                "name": "JavaScriptMastery",
+                "link": "https://www.youtube.com/c/JavaScriptMastery",
+                "description": "he builds intersting web components and explains his thought process while building it.",
+                "tags": ["good teacher", "simple explanation", "amazing js knowledge", "coolest JS tricks"],
+                "languages": ["Web DEV", "JS-deep dive"],
+                "fav": "perfect for mastering cool web components"
+            },
+            {
+                "name": "DevEd",
+                "link": "https://www.youtube.com/c/DevEd",
+                "description": "fun smart teacher and inspiration and cool webdev stuff",
+                "tags": ["fun and smart teacher", "simple explanation", "web dev", "inspiration"],
+                "languages": ["HTML", "CSS", ""],
+                "fav": "perfect for web dev"
+            },
+            {
+                "name": "CODE WITH HOSSEIN",
+                "link": "https://www.youtube.com/@CodeWithHossein",
+                "description": "fun smart teacher and inspiration and cool webdev stuff",
+                "tags": ["fun css", "inspiration", "simple explanation", "project ideas", "web dev"],
+                "languages": ["HTML", "CSS", "JS"],
+                "fav": "perfect for project ideas"
+            }
+        ]
+    ],
+    "content_res": [
+        [
+            {"identifier": "icons"},
+            {
+                "name": "fontawesome.com",
+                "link": "https://fontawesome.com/",
+                "tags": ["good doc", "diverse", "easy-use", "free"],
+                "featured": true
+            },
+            {
+                "name": "freecodecamp.org",
+                "link": "https://www.freecodecamp.org/",
+                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "logo"},
+            {}
+        ],
+        [
+            {"identifier": "font"},
+            {}
+        ],
+        [
+            {"identifier": "illustrations"},
+            {}
+        ],
+        [
+            {"identifier": "emoji/3d/animations"},
+            {}
+        ],
+        [
+            {"identifier": "color_generators"},
+            {}
+        ],
+        [
+            {"identifier": "web_design_ideas"},
+            {}
+        ]
+
+    ],
+    "css_simplifiers": [
+        {
+            "name": "blob maker",
+            "description": "create blob and copy paste css code",
+            "link": "https://www.blobmaker.app/"
+        },
+        {
+            "name": "custom border-radius",
+            "description": "create custome border-radius and copy paste css code",
+            "link": "https://9elements.github.io/fancy-border-radius"
+        },
+        {
+            "name": "css animations",
+            "description": "a list of alllll animations",
+            "link": "https://codepen.io/nelledejones/pen/gOOPWrK"
+        }
+        
+    ],
+    "extensions": [
+        {
+            "name": "eyedrop",
+            "description": "color picker",
+            "link": "https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en"
+        },
+        {
+            "name": "css-peeper",
+            "description": "css peek",
+            "link": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk/related?hl=en"
+        },
+        {
+            "name": "css-peeper",
+            "description": "screen recorder",
+            "link": "https://www.loom.com/"
+        }
+    ],
+    "documentation": [
+        {
+            "name": "MDN",
+            "link": "https://developer.mozilla.org/en-US/",
+            "description": "documentation for html/css/js - detailed description",
+            "languages": ["HTML", "CSS", "JS"]
+        },
+        {
+            "name": "css-tricks",
+            "link": "https://css-tricks.com/",
+            "description": "Its name is self-explanatory. You wanna how to do 'a', 'b', 'c'? Go to css tricks and search it. You learn by reading? then this website is the best for css.",
+            "languages": ["CSS"]
+        },
+        {
+            "name": "w3schools",
+            "link": "https://www.w3schools.com/",
+            "description": "Everyone knows this. Stackoverflow is for errors and w3schools is for web code snippets",
+            "languages": ["All web languages"]
+        },
+        {
+            "name": "geeksforgeeks",
+            "link": "https://www.geeksforgeeks.org/",
+            "description": "The god of code documentation. You wanna learn algorithms, data structures or ",
+            "languages": ["All non-web languages"]
+        }
+    ],
+    "tools": [
+        {
+            "name": "github",
+            "link": "https://github.com/",
+            "description": "push code online"
+        },
+        {
+            "name": "git bash",
+            "link": "https://git-scm.com/download/win",
+            "description": "its a terminal. idk much more"
+        },
+        {
+            "name": "netlify",
+            "link": "https://www.netlify.com/",
+            "description": "deploy website for free"
+        },
+        {
+            "name": "figma",
+            "link": "https://www.figma.com/",
+            "description": "design tool"
+        },
+        {
+            "name": "penpot",
+            "link": "https://penpot.app/",
+            "description": "best design tool incase figma starts to require payment."
+        }
+    ],
+    "other": [
+        {
+            "name": "BEM cheat sheet",
+            "link": "https://9elements.com/bem-cheat-sheet/"
+        }
+    ],
+    "advice": [
+        {
+            "name": "Lulseged Admasu",
+            "link": "",
+            "description": "Don't think you know how to code because you understand what the code is doing and how its working."
+        },
+        {
+            "name": "Kevin Powell",
+            "link": "https://www.youtube.com/shorts/cMtYwPcwcBU",
+            "description": ""
+        }
+    ]
+}

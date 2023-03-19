@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --bg-clr: #0f172a;
+    --border-clr: #334155;
+    --txt-primary-clr-dark: #e2e8f0;
+    --txt-secondary-clr-dark: #cbd5e1;
+    --label-bg-dark: #334155;
+    --ff-barlow: "Barlow", sans-serif;
+    --ff-heebo: "Heebo", sans-serif;
+    --ff-plus: "Plus Jakarta Sans", sans-serif;
+}
