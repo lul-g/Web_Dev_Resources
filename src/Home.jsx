@@ -9,8 +9,8 @@ function Home() {
                 <p className='para intro'>Look around and use these links for your web projects. These websites/youtube videos have been my go to resources for over two years and they keep serving me to this day. Use them and make your life easier.</p>
             </div>
             <div className="cards">
-                <div className="flex__child card name title__xmd title"><span className="title__md">20+</span> <span className='para_2'>content resources</span></div>
-                <div className="flex__child card name title__xmd title"><span className="title__md">10+</span><span className='para_2'>learning resources</span></div>
+                <div className="flex__child card name title__xmd title"><span className="title__md">25 +</span> <span className='para_2'>content resources</span></div>
+                <div className="flex__child card name title__xmd title"><span className="title__md">10 +</span><span className='para_2'>learning resources</span></div>
             </div>
         </div>
         </div>
