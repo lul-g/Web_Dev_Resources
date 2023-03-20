@@ -134,7 +134,7 @@ nav {
 }
 .nav__link:nth-child(3).selected,
 .nav__link:nth-child(7).selected {
-    box-shadow: 0 0 3rem 0rem #ffffff86;
+    box-shadow: 0 0 2rem 0rem #ffffffdd;
 }
 
 .nav__link i {
