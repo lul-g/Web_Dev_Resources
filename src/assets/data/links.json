@@ -485,6 +485,12 @@
                 "link": "https://9elements.com/bem-cheat-sheet/",
                 "description": "This tool aims to help you to not get lost in the BEM cosmos by giving you naming-suggestions for some of the most common web components.",
                 "fav": "check it out, u wont regret it"
+            },
+            {
+                "name": "css resources",
+                "link": "https://dev.to/lissy93/super-useful-css-resources-1ba3",
+                "description": "This dev post has a ton of css resources. Check them out",
+                "fav": "a larger list of css resources"
             }
         ]
     ],

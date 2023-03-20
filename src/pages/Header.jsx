@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 
-import { ReactComponent as Logo } from "./assets/imgs/logo.svg";
+import { ReactComponent as Logo } from "../assets/imgs/logo.svg";
 
 function NavBar() {
     function setColor() {

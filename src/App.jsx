@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 // import LinkCard from './components/learning/learning_card'
 // import LearningCont from './components/learning/learning_cont'
-import Header from './Header'
-import Home from './Home'
-import Footer from './Footer'
-
+import Header from './pages/Header'
+import Home from './pages/Home'
+import Footer from './pages/Footer'
 import CardsContainer from './pages/CardsContainer'
 
 import './App.css'

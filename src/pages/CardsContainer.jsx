@@ -5,6 +5,18 @@ import '../assets/card.css'
 
 
 export default function CardsContainer({name, data}) {
+    const [isVisible, setVisible] = useState(false)
+
+    window.addEventListener('scroll', () => {
+        const scrolled = document.documentElement.scrollTop;
+
+        if (scrolled > 500) {
+            setVisible(true)
+        }
+        else {
+            setVisible(false)
+        }
+    })
     return (  
         <div className="container">
             <div className="data">
@@ -20,6 +32,13 @@ export default function CardsContainer({name, data}) {
                     </div>
                     )
                 })}
+            </div>
+            <div 
+                className={isVisible ? "to_top show": "show"}
+                onClick={() => {
+                    window.scrollTo(0, 'smooth')
+                }}>
+                <i className="fa-solid fa-up-long"></i>
             </div>
         </div>
     );

@@ -12,6 +12,31 @@
     --ff-plus: "Plus Jakarta Sans", sans-serif;
 }
 
+.to_top {
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+
+    width:4.5rem;
+    height: 4.5rem;
+    background-color: var(--primary-clr);
+    display: grid;
+    place-items: center;
+    z-index: 999;
+    transform: translate(10rem, 0);
+}
+.to_top.show {
+    transform: translate(0, 0);
+}
+.to_top:hover > i{
+    transform: translate(0, -20%);
+    transition: all linear .3s;
+}
 .container {
     padding: 1rem;
 
@@ -195,4 +220,10 @@
     .card {
         max-width: 20rem;
     }
+}
+@media (max-width: 500px) {
+    .to_top {
+        right: 2rem;
+    }
+    
 }

@@ -21,6 +21,7 @@ a, li {
 }
 html {
     font-size: 67%;
+    scroll-behavior: smooth;
 }
 body {
     background-color: var(--bg-clr);
