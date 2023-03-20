@@ -278,7 +278,7 @@
             }
         ],
         [
-            {"identifier": "web_design_ideas"},
+            {"identifier": "web design ideas"},
             {
                 "name": "sliderrevolution.com",
                 "link": "https://www.sliderrevolution.com/resources/",
@@ -313,7 +313,7 @@
     ],
     "css_simplifiers": [
         [
-            {"identifier": "color_generators"},
+            {"identifier": "color generators"},
             {
                 "name": "mycolor.space",
                 "link": "https://mycolor.space/",

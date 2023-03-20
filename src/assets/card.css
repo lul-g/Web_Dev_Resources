@@ -150,8 +150,8 @@
 }@media (max-width: 1220px) {
     .data__child > h3 {
         text-align: center;
-        margin-bottom: 7rem;
     }
+
     .cards {
         grid-template-columns: repeat(2, auto);
         place-items: center;
@@ -180,6 +180,10 @@
 @media (max-width: 480px) {
     .cards {
         gap: 10rem 0;
+        margin-top: 2rem;
+    }
+    .data__child {
+        margin-bottom: 6rem;
     }
     .tags {
         grid-template-columns: repeat(1, auto);
