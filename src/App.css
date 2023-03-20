@@ -62,7 +62,15 @@ body {
 
     color: var(--txt-secondary-clr-dark);
     text-transform: uppercase;
+}.para_2 {
+    font-size: 1.5rem;
+    font-family: var(--ff-barlow);
+    font-weight: 300;
+
+    color: var(--txt-secondary-clr-dark);
+    text-transform: uppercase;
 }
+
 /* custom css */
 .App {
     width: 80vw;
@@ -76,12 +84,16 @@ body {
 .logo svg{
     width: 6rem;
     height: 6rem;
-    margin-top: 3rem;
-    margin-left: 3rem;
 }
 
 header {
     text-align: center;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 6rem;
 }
 
 nav {
@@ -128,12 +140,30 @@ nav {
     text-align: center;
     margin: 5rem 0;
 
+    display: flex;
+    flex-direction: column;
+    gap: 5rem 0;
+}
+.home .txt {
     display: grid;
     place-items: center;
 }
 .intro {
     line-height: 3rem;
-    width: 75%;
+    width: 90%;
+}
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+    gap: 3rem;
+}
+.flex__child {
+    display: flex;
+    flex-direction: column;
+}
+.flex__child .name {
+    font-weight: 100 !important;
 }
 .footer {
     text-align: center;
@@ -217,9 +247,7 @@ nav {
         width: 80%;
         text-align: center;
     }
-    .para {
-        width: 80%;
-    }
+
 }
 @media (max-width: 460px) {
     .nav__links {

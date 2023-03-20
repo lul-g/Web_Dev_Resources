@@ -97,146 +97,413 @@
             {
                 "name": "fontawesome.com",
                 "link": "https://fontawesome.com/",
-                "tags": ["good doc", "diverse", "easy-use", "free"],
+                "tags": ["2020+ icons", "needs reading doc", "no bs", "easy embed", "easy-use", "free"],
                 "featured": true
             },
             {
-                "name": "freecodecamp.org",
-                "link": "https://www.freecodecamp.org/",
-                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "name": "iconmonstr.com",
+                "link": "https://iconmonstr.com/",
+                "tags": ["4784+ icons", "light/solid choices", "good icons", "easy use", "no bs", "free"],
+                "featured": true
+            },
+            {
+                "name": "heroicons.com",
+                "link": "https://heroicons.com/",
+                "tags": ["292+ icons", "outline/solid choices", "good icons", "easy use", "no bs", "free"],
+                "featured": false
+            },
+            {
+                "name": "iconfinder.com",
+                "link": "https://www.iconfinder.com/",
+                "tags": ["6m+ icons", "icons/3d/illustrations", "good icons", "a lot of bs", "free/paid"],
+                "featured": false
+            },
+            {
+                "name": "bootstrapIcons",
+                "link": "https://icons.getbootstrap.com/",
+                "tags": ["1800+ icons", "light/solid choices", "easy embed", "easy use", "no bs", "free"],
+                "featured": false
+            },
+            {
+                "name": "lordicon.com",
+                "link": "https://lordicon.com/ ",
+                "tags": ["1490+ icons", "animated icons", "required reading doc", "some bs", "free/paid"],
+                "featured": false
+            }
+
+        ],
+        [
+            {"identifier": "MEDIA"},
+            {
+                "name": "PEXELS.com",
+                "link": "https://www.pexels.com/",
+                "tags": ["imgs/vids", "high quality", "royalty free", "free"],
+                "featured": true
+            },
+            {
+                "name": "coverr.com",
+                "link": "https://coverr.co/",
+                "tags": ["vids/music", "high quality", "royalty free",  "free"],
+                "featured": true
+            },
+            {
+                "name": "unsplash.com",
+                "link": "https://unsplash.com/",
+                "tags": ["images", "good quality", "easy download", "royalty free", "free"],
+                "featured": false
+            },
+            {
+                "name": "pixabay.com",
+                "link": "https://pixabay.com/",
+                "tags": ["img/vid/gif/music", "high quality", "easy download", "royalty free", "free"],
+                "featured": false
+            },
+            {
+                "name": "mixkit.com",
+                "link": "https://mixkit.co/",
+                "tags": ["vids/music", "perfect for music", "high quality", "royalty free",  "free"],
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "font"},
+            {
+                "name": "googleFonts",
+                "link": "https://fonts.google.com/ ",
+                "tags": ["insane font libr", "easy embed", "easy doc", "easy use", "free"],
+                "featured": true
+            },
+            {
+                "name": "fontshare.com",
+                "link": "https://www.fontshare.com/",
+                "tags": ["insane font libr", "easy use", "download font & use", "modern fonts", "free"],
+                "featured": true
+            }
+        ],
+        [
+            {"identifier": "illustrations"},
+            {
+                "name": "lukaszadam.com",
+                "link": "https://lukaszadam.com/illustrations",
+                "tags": ["clean/aesthetic", "easy use", "diverse", "perfect", "svg", "free"],
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "reshot.io",
+                "link": "https://www.reshot.com/",
+                "tags": ["insane svgs for free", "gradient", "vector/png", "free"],
+                "fav": "u will need vector to svg converter",
+                "featured": true
+            },
+            {
+                "name": "404.fun",
+                "link": "https://error404.fun/",
+                "tags": ["small library", "multi colored", "clean/fun", "svg/png", "free"],
+                "fav": "error page illustrations",
+                "featured": true
+            },
+            {
+                "name": "drawkit.com",
+                "link": "https://drawkit.com/",
+                "tags": ["good library", "requires sign up", "creative", "svg/png", "free"],
+                "fav": "categorized by theme",
+                "featured": true
+            },
+            {
+                "name": "undraw.co",
+                "link": "https://undraw.co/illustrations",
+                "tags": ["clean", "customizable with editor", "easy use", "svg", "bo bs", "free"],
+                "fav": "good for personal projects",
+                "featured": false
+            },
+            {
+                "name": "manypixels.co",
+                "link": "https://www.manypixels.co/gallery",
+                "tags": ["minimalistic", "categorized by type", "easy use", "svg", "customizable", "free"],
+                "fav": "",
+                "featured": false
+            },
+            {
+                "name": "openpeeps.com",
+                "link": "https://www.openpeeps.com/",
+                "tags": ["monochromatic/multicolor", "good library", "no attribution", "free"],
+                "fav": "for ppl illustrations",
+                "featured": false
+            },
+            {
+                "name": "usesmash.com",
+                "link": "https://usesmash.com/",
+                "tags": ["good size library", "to customize", "clean", "svg/png", "free"],
+                "fav": "ingredient provider",
+                "featured": false
+            },
+            {
+                "name": "lottiefiles.com",
+                "link": "https://lottiefiles.com/",
+                "tags": ["good library", "fun/colorful/creative", "svg/png", "free"],
+                "fav": "animated illustrations",
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "3d/animations"},
+            {
+                "name": "animated-fluent-emoji",
+                "link": "https://animated-fluent-emoji.vercel.app/ ",
+                "tags": ["an amazing library", "fun/colorful/creative", "easy embed", "downloadable", "free"],
+                "fav": "animated 3d emojis",
+                "featured": true
+            },
+            {
+                "name": "shapefest.com",
+                "link": "https://www.shapefest.com/",
+                "tags": ["huge library", "creative/diverse", "zip download", "free"],
+                "fav": "they have everything 3d",
+                "featured": true
+            },
+            {
+                "name": "3dicons.co",
+                "link": "https://3dicons.co/",
+                "tags": ["huge library", "multi colored", "figma/zip download", "free"],
+                "fav": "really unique 3d icons",
+                "featured": true
+            },
+            {
+                "name": "superscene.pro",
+                "link": "https://superscene.pro/",
+                "tags": ["amazing library", "fun/colorful/creative", "downloadable", "free"],
+                "fav": "non-animated 3d emojis",
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "web_design_ideas"},
+            {
+                "name": "sliderrevolution.com",
+                "link": "https://www.sliderrevolution.com/resources/",
+                "tags": ["", "", "", "", ""],
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "dribbble.com",
+                "link": "https://dribbble.com/",
+                "tags": ["", "", "", "", ""],
+                "fav": "good for inspiration",
+                "featured": true
+            },
+            {
+                "name": "webframe.xyz",
+                "link": "https://webframe.xyz/",
+                "tags": ["", "", "", "", ""],
+                "fav": "good for ideas",
                 "featured": false
             }
         ],
         [
             {"identifier": "logo"},
-            {}
-        ],
-        [
-            {"identifier": "font"},
-            {}
-        ],
-        [
-            {"identifier": "illustrations"},
-            {}
-        ],
-        [
-            {"identifier": "emoji/3d/animations"},
-            {}
-        ],
-        [
-            {"identifier": "color_generators"},
-            {}
-        ],
-        [
-            {"identifier": "web_design_ideas"},
-            {}
+            {
+                "name": "logo.com",
+                "link": "https://logo.com/",
+                "tags": ["logo maker", "Artificial intelligence", "easy/fast", "free"],
+                "featured": true
+            }
         ]
-
     ],
     "css_simplifiers": [
-        {
-            "name": "blob maker",
-            "description": "create blob and copy paste css code",
-            "link": "https://www.blobmaker.app/"
-        },
-        {
-            "name": "custom border-radius",
-            "description": "create custome border-radius and copy paste css code",
-            "link": "https://9elements.github.io/fancy-border-radius"
-        },
-        {
-            "name": "css animations",
-            "description": "a list of alllll animations",
-            "link": "https://codepen.io/nelledejones/pen/gOOPWrK"
-        }
+        [
+            {"identifier": "color_generators"},
+            {
+                "name": "mycolor.space",
+                "link": "https://mycolor.space/",
+                "tags": ["color pallete generator", "best", "easy to use", "free"],
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "coolors.co",
+                "link": "https://coolors.co/ ",
+                "tags": ["", "", "", "", ""],
+                "fav": "most ppl's go to",
+                "featured": true
+            },
+            {
+                "name": "cssgradient.io",
+                "link": "https://cssgradient.io",
+                "tags": ["", "", "", "", ""],
+                "fav": "gradient maker",
+                "featured": false
+            },
+            {
+                "name": "uigradients.com",
+                "link": "https://uigradients.com/#Influenza",
+                "tags": ["", "", "", "", ""],
+                "fav": "gradient maker",
+                "featured": false
+            }
+        ],
+        [
+            {"identifier": "content generator"},
+            {
+                "name": "blob maker",
+                "description": "create blob and copy paste css code",
+                "link": "https://www.blobmaker.app/"
+            },
+            {
+                "name": "custom border-radius",
+                "description": "create custome border-radius and copy paste css code",
+                "link": "https://9elements.github.io/fancy-border-radius"
+            },
+            {
+                "name": "css animations",
+                "description": "a list of alllll animations",
+                "link": "https://codepen.io/nelledejones/pen/gOOPWrK"
+            }
+        ]
         
     ],
     "extensions": [
-        {
-            "name": "eyedrop",
-            "description": "color picker",
-            "link": "https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en"
-        },
-        {
-            "name": "css-peeper",
-            "description": "css peek",
-            "link": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk/related?hl=en"
-        },
-        {
-            "name": "css-peeper",
-            "description": "screen recorder",
-            "link": "https://www.loom.com/"
-        }
+        [
+            {"identifier": "extensions"},
+            {
+                "name": "eyedrop",
+                "description": "pick color from websites",
+                "link": "https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en"
+            },
+            {
+                "name": "css-peeper",
+                "description": "take a peek at the css of any website",
+                "link": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk/related?hl=en"
+            },
+            {
+                "name": "json formatter",
+                "description": "it formats raw json data into a readable format",
+                "link": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en"
+            },
+            {
+                "name": "loom",
+                "description": "free screen recorder. u can share link to video or download the video as mp4.",
+                "link": "https://www.loom.com/"
+            }
+        ]
     ],
     "documentation": [
-        {
-            "name": "MDN",
-            "link": "https://developer.mozilla.org/en-US/",
-            "description": "documentation for html/css/js - detailed description",
-            "languages": ["HTML", "CSS", "JS"]
-        },
-        {
-            "name": "css-tricks",
-            "link": "https://css-tricks.com/",
-            "description": "Its name is self-explanatory. You wanna how to do 'a', 'b', 'c'? Go to css tricks and search it. You learn by reading? then this website is the best for css.",
-            "languages": ["CSS"]
-        },
-        {
-            "name": "w3schools",
-            "link": "https://www.w3schools.com/",
-            "description": "Everyone knows this. Stackoverflow is for errors and w3schools is for web code snippets",
-            "languages": ["All web languages"]
-        },
-        {
-            "name": "geeksforgeeks",
-            "link": "https://www.geeksforgeeks.org/",
-            "description": "The god of code documentation. You wanna learn algorithms, data structures or ",
-            "languages": ["All non-web languages"]
-        }
+        [
+            {"identifier": "documentations"},
+            {
+                "name": "MDN",
+                "link": "https://developer.mozilla.org/en-US/",
+                "description": "documentation for html/css/js",
+                "tags": [ "detailed description", "HTML", "CSS", "javascript"],
+                "fav": "actual comprehensive doc"
+            },
+            {
+                "name": "css-tricks",
+                "link": "https://css-tricks.com/",
+                "description": "Its name is self-explanatory. You wanna know how to do 'a', 'b', 'c'? Go to css tricks and search it. You learn by reading? then this website is the best for css.",
+                "tags": ["CSS"],
+                "fav": "for the css zealots and noobs"
+            },
+            {
+                "name": "w3schools",
+                "link": "https://www.w3schools.com/",
+                "description": "Everyone knows this. Stackoverflow is for errors and w3schools is for web code snippets",
+                "tags": ["All web languages"],
+                "fav": "easy to understand"
+            },
+            {
+                "name": "geeksforgeeks",
+                "link": "https://www.geeksforgeeks.org/",
+                "description": "The god of code documentation. You wanna learn algorithms, data structures or ",
+                "tags": ["All non-web languages"],
+                "fav": "detailed explanations"
+            }
+        ]
     ],
     "tools": [
-        {
-            "name": "github",
-            "link": "https://github.com/",
-            "description": "push code online"
-        },
-        {
-            "name": "git bash",
-            "link": "https://git-scm.com/download/win",
-            "description": "its a terminal. idk much more"
-        },
-        {
-            "name": "netlify",
-            "link": "https://www.netlify.com/",
-            "description": "deploy website for free"
-        },
-        {
-            "name": "figma",
-            "link": "https://www.figma.com/",
-            "description": "design tool"
-        },
-        {
-            "name": "penpot",
-            "link": "https://penpot.app/",
-            "description": "best design tool incase figma starts to require payment."
-        }
+        [
+            {"identifier": "coding tools"},
+            {
+                "name": "figma",
+                "link": "https://www.figma.com/",
+                "description": "design tool",
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "vscode",
+                "link": "https://code.visualstudio.com/",
+                "description": "do you build websites? do you use sth other than vs code? then u need help!",
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
+                "name": "github",
+                "link": "https://github.com/",
+                "description": "push code online",
+                "featured": true
+            },
+            {
+                "name": "netlify",
+                "link": "https://www.netlify.com/",
+                "description": "deploy website for free",
+                "featured": true
+            },
+            {
+                "name": "git bash",
+                "link": "https://git-scm.com/download/win",
+                "description": "its a terminal. idk much more"
+            },
+            {
+                "name": "penpot",
+                "link": "https://penpot.app/",
+                "description": "best design tool incase figma starts to require payment."
+            },
+
+            {
+                "name": "intellij",
+                "link": "https://code.visualstudio.com/",
+                "description": "not building websites? then use it!",
+                "fav": "i use it for java",
+                "featured": false
+            },
+            {
+                "name": "android studio",
+                "link": "https://code.visualstudio.com/",
+                "description": "it will drive u crazy, ur pc will freeze but u will have an android app",
+                "fav": "i use it for android",
+                "featured": false
+            }
+        ]
     ],
-    "other": [
-        {
-            "name": "BEM cheat sheet",
-            "link": "https://9elements.com/bem-cheat-sheet/"
-        }
+    "others": [
+        [
+            {"identifier": "other"},
+            {
+                "name": "BEM cheat sheet",
+                "link": "https://9elements.com/bem-cheat-sheet/",
+                "description": "This tool aims to help you to not get lost in the BEM cosmos by giving you naming-suggestions for some of the most common web components.",
+                "fav": "check it out, u wont regret it"
+            }
+        ]
     ],
     "advice": [
+       [
+        {"identifier": "advice"},
         {
             "name": "Lulseged Admasu",
-            "link": "",
-            "description": "Don't think you know how to code because you understand what the code is doing and how its working."
+            "link": "https://lulseged-admasu.netlify.app/",
+            "description": "Don't think you know how to code because you understand what the code is doing and how its working.",
+            "featured": true
         },
         {
             "name": "Kevin Powell",
             "link": "https://www.youtube.com/shorts/cMtYwPcwcBU",
-            "description": ""
+            "fav": "watch the YOUTUBE SHORT, this is a link ! ! !",
+            "description": "trying to learn how to code by watching people code is like trying to learn skateboarding by going to your local skatepark and just watching people skateboard.",
+            "featured": true
         }
+       ]
     ]
 }

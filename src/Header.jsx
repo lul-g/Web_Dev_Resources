@@ -16,7 +16,15 @@ function NavBar() {
 
     return ( 
         <div className="header__cont">
-            <div className="logo"><Logo /> </div>
+            <div className="header__top">
+                <div className="logo"><Logo /> </div>
+                <a href='https://resume-lul.netlify.app/' target="_blank" data-clr='#7c3aed' onLoad={(navData) => {return navData.isActive = true}} className="nav__link"> 
+                    <i class="fa-solid fa-rocket"></i> /resume
+                </a>
+                <NavLink to='/advice' data-clr='#7c3aed' onLoad={(navData) => {return navData.isActive = true}} className={(navData) => (navData.isActive ? 'selected nav__link' : 'nav__link')}> 
+                    <i class="fa-solid fa-rocket"></i> /advice
+                </NavLink>
+            </div>
             <header className="header">
                 <div className="title title__big">WEB - DEV Resources</div>
                 <p className="para">Resources to make your coding life easier</p>
@@ -32,7 +40,7 @@ function NavBar() {
                     <NavLink to='/content' data-clr='#333' className={(navData) => (navData.isActive ? 'selected nav__link' : 'nav__link')}>
                             <i className="fa-solid fa-compact-disc"></i>/Content_res
                     </NavLink>
-                    <NavLink to='/Css_simp' data-clr='#E60866' className={(navData) => (navData.isActive ? 'selected nav__link' : 'nav__link')}>
+                    <NavLink to='/css_simp' data-clr='#E60866' className={(navData) => (navData.isActive ? 'selected nav__link' : 'nav__link')}>
                         <i className="fa-solid fa-wand-magic-sparkles"></i>/Css_simplifiers
                     </NavLink>
                     <NavLink to='/extensions' data-clr='#7c3aed' className={(navData) => (navData.isActive ? 'selected nav__link' : 'nav__link')}>

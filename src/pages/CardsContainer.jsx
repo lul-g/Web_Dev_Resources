@@ -1,8 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import links from '../assets/data/links.json'
-import './css/card.css'
+import '../assets/card.css'
 
 
 export default function CardsContainer({name, data}) {
@@ -15,7 +14,7 @@ export default function CardsContainer({name, data}) {
                         <h3 className="title title__md">{datum[0].identifier}</h3>
                         <div className="cards">
                             {datum.slice(1).map((obj, i) => {
-                                return(<Card key={i} name={obj.name} tags={obj.tags} link={obj.link} featured={obj.featured} fav={obj.fav} />)
+                                return(<Card key={i} name={obj.name} tags={obj.tags} link={obj.link} featured={obj.featured} fav={obj.fav} description={obj.description}  />)
                             })}
                         </div>
                     </div>
@@ -26,7 +25,7 @@ export default function CardsContainer({name, data}) {
     );
 }
 
-function Card({name, tags, link, featured, fav}) {
+function Card({name, tags, link, featured, fav, description}) {
     return (
         <a target='_blank' href={link} className="card">
             <h3 className="name title__xmd title">{name}</h3>
@@ -38,7 +37,8 @@ function Card({name, tags, link, featured, fav}) {
                 }
             </div>}
             {featured && <div className="featured tag">Featured</div>}
-            {fav && <div className="fav tag">{fav}</div>}    
+            {fav && <div className={fav == "developer's choice" ? "fav tag dev" : "fav tag"}>{fav}</div>}    
+            {description && <div className="para desc">{description}</div>}    
         </a>
       );
 }
