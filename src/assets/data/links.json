@@ -3,6 +3,15 @@
         [
             {"identifier": "websites"},
             {
+                "name": "laracasts.com",
+                "link": "https://laracasts.com/",
+                "description": "",
+                "tags": ["project-based", "futuristic website", "fun", "perfect", "free"],
+                "languages": ["PHP", "JS", "ReactJS", "UI/UX", "all JS frameworks", "others"],
+                "fav": "developer's choice",
+                "featured": true
+            },
+            {
                 "name": "scrimba.com",
                 "link": "https://scrimba.com/",
                 "description": "",
@@ -213,7 +222,7 @@
             {
                 "name": "undraw.co",
                 "link": "https://undraw.co/illustrations",
-                "tags": ["clean", "customizable with editor", "easy use", "svg", "bo bs", "free"],
+                "tags": ["clean", "customizable with editor", "easy use", "svg", "no bs", "free"],
                 "fav": "good for personal projects",
                 "featured": false
             },
@@ -359,6 +368,11 @@
                 "name": "css animations",
                 "description": "a list of alllll animations",
                 "link": "https://codepen.io/nelledejones/pen/gOOPWrK"
+            },
+            {
+                "name": "shadow gradients",
+                "description": "a list of css shadows with display of what each shadow looks like",
+                "link": "https://alvarotrigo.com/shadow-gradients/"
             }
         ]
         
@@ -491,6 +505,12 @@
                 "link": "https://dev.to/lissy93/super-useful-css-resources-1ba3",
                 "description": "This dev post has a ton of css resources. Check them out",
                 "fav": "a larger list of css resources"
+            },
+            {
+                "name": "front_end_checklist",
+                "link": "https://frontendchecklist.io/",
+                "description": "This tool is the holy grail of developing a front end web app. It is an extensive checklist to make sure that your website is ready for deployment.",
+                "fav": "front end checklist"
             }
         ]
     ],
