@@ -6,7 +6,7 @@ import '../assets/card.css'
 
 export default function CardsContainer({name, data}) {
     const [isVisible, setVisible] = useState(false)
-
+    
     window.addEventListener('scroll', () => {
         const scrolled = document.documentElement.scrollTop;
 

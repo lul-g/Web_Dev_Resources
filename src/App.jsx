@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 // import LinkCard from './components/learning/learning_card'
 // import LearningCont from './components/learning/learning_cont'
@@ -11,13 +11,30 @@ import CardsContainer from './pages/CardsContainer'
 import './App.css'
 
 import links from './assets/data/links.json'
+import Loading from './pages/Loading';
 function App() {
   const [data, setData] = useState(links)
 
+  const [isLoading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading((true))
+    setTimeout(() => {
+      setLoading((false))
+    }, 1500)
+  }, [])
+
+  function handleClick() {
+    setLoading((true))
+    setTimeout(() => {
+      setLoading((false))
+    }, 1500)
+  }
+
   return (
     <div className="App">
+        {isLoading && <Loading />}
         <Router>
-          <Header />
+          <Header func={handleClick} />
           <Routes>
               <Route path="*" element={<Home/>}/>  
               <Route path="/" element={<Home/>}/>  
@@ -36,5 +53,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
