@@ -261,6 +261,9 @@ nav {
     }
 }
 @media (max-width: 483px) {
+    .App {
+        width: 90vw;
+    }
     .header__top {
         grid-template-columns: repeat(1, auto);
         gap: 4rem 0;
