@@ -1,13 +1,28 @@
 {
     "learning_res": [
         [
-            {"identifier": "websites"},
+            {
+                "identifier": "websites"
+            },
             {
                 "name": "laracasts.com",
                 "link": "https://laracasts.com/",
                 "description": "",
-                "tags": ["project-based", "futuristic website", "fun", "perfect", "free"],
-                "languages": ["PHP", "JS", "ReactJS", "UI/UX", "all JS frameworks", "others"],
+                "tags": [
+                    "project-based",
+                    "futuristic website",
+                    "fun",
+                    "perfect",
+                    "free"
+                ],
+                "languages": [
+                    "PHP",
+                    "JS",
+                    "ReactJS",
+                    "UI/UX",
+                    "all JS frameworks",
+                    "others"
+                ],
                 "fav": "developer's choice",
                 "featured": true
             },
@@ -15,8 +30,20 @@
                 "name": "scrimba.com",
                 "link": "https://scrimba.com/",
                 "description": "",
-                "tags": ["project-based", "clean website", "progressive content", "free"],
-                "languages": ["HTML", "CSS", "JS", "ReactJS", "UI/UX", "others"],
+                "tags": [
+                    "project-based",
+                    "clean website",
+                    "progressive content",
+                    "free"
+                ],
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "ReactJS",
+                    "UI/UX",
+                    "others"
+                ],
                 "fav": "developer's choice",
                 "featured": true
             },
@@ -24,336 +51,629 @@
                 "name": "freecodecamp.org",
                 "link": "https://www.freecodecamp.org/",
                 "description": "",
-                "tags": ["project-based", "clean website", "progressive content", "free"],
-                "languages": ["Web DEV", "JS-deep dive","Data visualization", "Front/Backend","data analysis",  "Machine learning"],
+                "tags": [
+                    "project-based",
+                    "clean website",
+                    "progressive content",
+                    "free"
+                ],
+                "languages": [
+                    "Web DEV",
+                    "JS-deep dive",
+                    "Data visualization",
+                    "Front/Backend",
+                    "data analysis",
+                    "Machine learning"
+                ],
                 "fav": "most ppl reccommend",
                 "featured": false
             }
         ],
         [
-            {"identifier": "projects"},
+            {
+                "identifier": "projects"
+            },
             {
                 "name": "frontendmentor.io",
                 "link": "https://www.frontendmentor.io/",
                 "fav": "free and paid challenge projects",
-                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "tags": [
+                    "project-based",
+                    "clean website",
+                    "progressive content",
+                    "free"
+                ],
                 "featured": false
             },
-            
             {
                 "name": "frontendpractice.com",
                 "link": "https://www.frontendpractice.com/",
                 "fav": "recreate real websites",
-                "tags": ["project-based", "clean website", "progressive content", "free"],
+                "tags": [
+                    "project-based",
+                    "clean website",
+                    "progressive content",
+                    "free"
+                ],
                 "featured": true
             }
         ],
         [
-            {"identifier": "youtube"},
+            {
+                "identifier": "youtube"
+            },
             {
                 "name": "Kevin Powell",
                 "link": "https://www.youtube.com/kepowob",
                 "description": "",
-                "tags": ["good teacher", "whats new in CSS", "amazing css tricks", "learn css"],
-                "languages": ["Web DEV", "css-deep dive"],
+                "tags": [
+                    "good teacher",
+                    "whats new in CSS",
+                    "amazing css tricks",
+                    "learn css"
+                ],
+                "languages": [
+                    "Web DEV",
+                    "css-deep dive"
+                ],
                 "fav": "perfect for css"
             },
             {
                 "name": "WebDevSimplified",
                 "link": "https://www.youtube.com/c/WebDevSimplified",
                 "description": "he can explain hard concepts in simple terms",
-                "tags": ["good teacher", "simple explanation", "amazing js knowledge", "web dev"],
-                "languages": ["Web DEV", "JS-deep dive"],
+                "tags": [
+                    "good teacher",
+                    "simple explanation",
+                    "amazing js knowledge",
+                    "web dev"
+                ],
+                "languages": [
+                    "Web DEV",
+                    "JS-deep dive"
+                ],
                 "fav": "perfect for hard JS concepts"
             },
             {
                 "name": "Fireship",
                 "link": "https://www.youtube.com/c/Fireship",
                 "description": "You want to learn while laughing, this is your guy. He can show you how to cool stuff with pretty much any language but he is advanced level. And the dude packs an insane amount of sarcasm.",
-                "tags": ["saracsm 101", "whats new in CS", "complex/hard/big concepts", "5-15 min videos"],
-                "languages": ["All languages"],
+                "tags": [
+                    "saracsm 101",
+                    "whats new in CS",
+                    "complex/hard/big concepts",
+                    "5-15 min videos"
+                ],
+                "languages": [
+                    "All languages"
+                ],
                 "fav": "when you decide to go pro/have a laugh"
             },
             {
                 "name": "JavaScriptMastery",
                 "link": "https://www.youtube.com/c/JavaScriptMastery",
                 "description": "he builds intersting web components and explains his thought process while building it.",
-                "tags": ["good teacher", "simple explanation", "amazing js knowledge", "coolest JS tricks"],
-                "languages": ["Web DEV", "JS-deep dive"],
+                "tags": [
+                    "good teacher",
+                    "simple explanation",
+                    "amazing js knowledge",
+                    "coolest JS tricks"
+                ],
+                "languages": [
+                    "Web DEV",
+                    "JS-deep dive"
+                ],
                 "fav": "perfect for mastering cool web components"
             },
             {
                 "name": "DevEd",
                 "link": "https://www.youtube.com/c/DevEd",
                 "description": "fun smart teacher and inspiration and cool webdev stuff",
-                "tags": ["fun and smart teacher", "simple explanation", "web dev", "inspiration"],
-                "languages": ["HTML", "CSS", ""],
+                "tags": [
+                    "fun and smart teacher",
+                    "simple explanation",
+                    "web dev",
+                    "inspiration"
+                ],
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    ""
+                ],
                 "fav": "perfect for web dev"
             },
             {
                 "name": "CODE WITH HOSSEIN",
                 "link": "https://www.youtube.com/@CodeWithHossein",
                 "description": "fun smart teacher and inspiration and cool webdev stuff",
-                "tags": ["fun css", "inspiration", "simple explanation", "project ideas", "web dev"],
-                "languages": ["HTML", "CSS", "JS"],
+                "tags": [
+                    "fun css",
+                    "inspiration",
+                    "simple explanation",
+                    "project ideas",
+                    "web dev"
+                ],
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JS"
+                ],
                 "fav": "perfect for project ideas"
             }
         ]
     ],
     "content_res": [
         [
-            {"identifier": "icons"},
+            {
+                "identifier": "icons"
+            },
             {
                 "name": "fontawesome.com",
                 "link": "https://fontawesome.com/",
-                "tags": ["2020+ icons", "needs reading doc", "no bs", "easy embed", "easy-use", "free"],
+                "tags": [
+                    "2020+ icons",
+                    "needs reading doc",
+                    "no bs",
+                    "easy embed",
+                    "easy-use",
+                    "free"
+                ],
                 "featured": true
             },
             {
                 "name": "iconmonstr.com",
                 "link": "https://iconmonstr.com/",
-                "tags": ["4784+ icons", "light/solid choices", "good icons", "easy use", "no bs", "free"],
+                "tags": [
+                    "4784+ icons",
+                    "light/solid choices",
+                    "good icons",
+                    "easy use",
+                    "no bs",
+                    "free"
+                ],
                 "featured": true
             },
             {
                 "name": "heroicons.com",
                 "link": "https://heroicons.com/",
-                "tags": ["292+ icons", "outline/solid choices", "good icons", "easy use", "no bs", "free"],
+                "tags": [
+                    "292+ icons",
+                    "outline/solid choices",
+                    "good icons",
+                    "easy use",
+                    "no bs",
+                    "free"
+                ],
                 "featured": false
             },
             {
                 "name": "iconfinder.com",
                 "link": "https://www.iconfinder.com/",
-                "tags": ["6m+ icons", "icons/3d/illustrations", "good icons", "a lot of bs", "free/paid"],
+                "tags": [
+                    "6m+ icons",
+                    "icons/3d/illustrations",
+                    "good icons",
+                    "a lot of bs",
+                    "free/paid"
+                ],
                 "featured": false
             },
             {
                 "name": "bootstrapIcons",
                 "link": "https://icons.getbootstrap.com/",
-                "tags": ["1800+ icons", "light/solid choices", "easy embed", "easy use", "no bs", "free"],
+                "tags": [
+                    "1800+ icons",
+                    "light/solid choices",
+                    "easy embed",
+                    "easy use",
+                    "no bs",
+                    "free"
+                ],
                 "featured": false
             },
             {
                 "name": "lordicon.com",
                 "link": "https://lordicon.com/ ",
-                "tags": ["1490+ icons", "animated icons", "required reading doc", "some bs", "free/paid"],
+                "tags": [
+                    "1490+ icons",
+                    "animated icons",
+                    "required reading doc",
+                    "some bs",
+                    "free/paid"
+                ],
                 "featured": false
             }
-
         ],
         [
-            {"identifier": "MEDIA"},
+            {
+                "identifier": "MEDIA"
+            },
             {
                 "name": "PEXELS.com",
                 "link": "https://www.pexels.com/",
-                "tags": ["imgs/vids", "high quality", "royalty free", "free"],
+                "tags": [
+                    "imgs/vids",
+                    "high quality",
+                    "royalty free",
+                    "free"
+                ],
                 "featured": true
             },
             {
                 "name": "coverr.com",
                 "link": "https://coverr.co/",
-                "tags": ["vids/music", "high quality", "royalty free",  "free"],
+                "tags": [
+                    "vids/music",
+                    "high quality",
+                    "royalty free",
+                    "free"
+                ],
                 "featured": true
             },
             {
                 "name": "unsplash.com",
                 "link": "https://unsplash.com/",
-                "tags": ["images", "good quality", "easy download", "royalty free", "free"],
+                "tags": [
+                    "images",
+                    "good quality",
+                    "easy download",
+                    "royalty free",
+                    "free"
+                ],
                 "featured": false
             },
             {
                 "name": "pixabay.com",
                 "link": "https://pixabay.com/",
-                "tags": ["img/vid/gif/music", "high quality", "easy download", "royalty free", "free"],
+                "tags": [
+                    "img/vid/gif/music",
+                    "high quality",
+                    "easy download",
+                    "royalty free",
+                    "free"
+                ],
                 "featured": false
             },
             {
                 "name": "mixkit.com",
                 "link": "https://mixkit.co/",
-                "tags": ["vids/music", "perfect for music", "high quality", "royalty free",  "free"],
+                "tags": [
+                    "vids/music",
+                    "perfect for music",
+                    "high quality",
+                    "royalty free",
+                    "free"
+                ],
                 "featured": false
             }
         ],
         [
-            {"identifier": "font"},
+            {
+                "identifier": "font"
+            },
             {
                 "name": "googleFonts",
                 "link": "https://fonts.google.com/ ",
-                "tags": ["insane font libr", "easy embed", "easy doc", "easy use", "free"],
+                "tags": [
+                    "insane font libr",
+                    "easy embed",
+                    "easy doc",
+                    "easy use",
+                    "free"
+                ],
                 "featured": true
             },
             {
                 "name": "fontshare.com",
                 "link": "https://www.fontshare.com/",
-                "tags": ["insane font libr", "easy use", "download font & use", "modern fonts", "free"],
+                "tags": [
+                    "insane font libr",
+                    "easy use",
+                    "download font & use",
+                    "modern fonts",
+                    "free"
+                ],
                 "featured": true
             }
         ],
         [
-            {"identifier": "illustrations"},
+            {
+                "identifier": "illustrations"
+            },
             {
                 "name": "lukaszadam.com",
                 "link": "https://lukaszadam.com/illustrations",
-                "tags": ["clean/aesthetic", "easy use", "diverse", "perfect", "svg", "free"],
+                "tags": [
+                    "clean/aesthetic",
+                    "easy use",
+                    "diverse",
+                    "perfect",
+                    "svg",
+                    "free"
+                ],
                 "fav": "developer's choice",
                 "featured": true
             },
             {
                 "name": "reshot.io",
                 "link": "https://www.reshot.com/",
-                "tags": ["insane svgs for free", "gradient", "vector/png", "free"],
+                "tags": [
+                    "insane svgs for free",
+                    "gradient",
+                    "vector/png",
+                    "free"
+                ],
                 "fav": "u will need vector to svg converter",
                 "featured": true
             },
             {
                 "name": "404.fun",
                 "link": "https://error404.fun/",
-                "tags": ["small library", "multi colored", "clean/fun", "svg/png", "free"],
+                "tags": [
+                    "small library",
+                    "multi colored",
+                    "clean/fun",
+                    "svg/png",
+                    "free"
+                ],
                 "fav": "error page illustrations",
                 "featured": true
             },
             {
                 "name": "drawkit.com",
                 "link": "https://drawkit.com/",
-                "tags": ["good library", "requires sign up", "creative", "svg/png", "free"],
+                "tags": [
+                    "good library",
+                    "requires sign up",
+                    "creative",
+                    "svg/png",
+                    "free"
+                ],
                 "fav": "categorized by theme",
                 "featured": true
             },
             {
                 "name": "undraw.co",
                 "link": "https://undraw.co/illustrations",
-                "tags": ["clean", "customizable with editor", "easy use", "svg", "no bs", "free"],
+                "tags": [
+                    "clean",
+                    "customizable with editor",
+                    "easy use",
+                    "svg",
+                    "no bs",
+                    "free"
+                ],
                 "fav": "good for personal projects",
                 "featured": false
             },
             {
                 "name": "manypixels.co",
                 "link": "https://www.manypixels.co/gallery",
-                "tags": ["minimalistic", "categorized by type", "easy use", "svg", "customizable", "free"],
+                "tags": [
+                    "minimalistic",
+                    "categorized by type",
+                    "easy use",
+                    "svg",
+                    "customizable",
+                    "free"
+                ],
                 "fav": "",
                 "featured": false
             },
             {
                 "name": "openpeeps.com",
                 "link": "https://www.openpeeps.com/",
-                "tags": ["monochromatic/multicolor", "good library", "no attribution", "free"],
+                "tags": [
+                    "monochromatic/multicolor",
+                    "good library",
+                    "no attribution",
+                    "free"
+                ],
                 "fav": "for ppl illustrations",
                 "featured": false
             },
             {
                 "name": "usesmash.com",
                 "link": "https://usesmash.com/",
-                "tags": ["good size library", "to customize", "clean", "svg/png", "free"],
+                "tags": [
+                    "good size library",
+                    "to customize",
+                    "clean",
+                    "svg/png",
+                    "free"
+                ],
                 "fav": "ingredient provider",
                 "featured": false
             },
             {
                 "name": "lottiefiles.com",
                 "link": "https://lottiefiles.com/",
-                "tags": ["good library", "fun/colorful/creative", "svg/png", "free"],
+                "tags": [
+                    "good library",
+                    "fun/colorful/creative",
+                    "svg/png",
+                    "free"
+                ],
                 "fav": "animated illustrations",
                 "featured": false
             }
         ],
         [
-            {"identifier": "3d/animations"},
+            {
+                "identifier": "3d/animations"
+            },
             {
                 "name": "animated-fluent-emoji",
                 "link": "https://animated-fluent-emoji.vercel.app/ ",
-                "tags": ["an amazing library", "fun/colorful/creative", "easy embed", "downloadable", "free"],
+                "tags": [
+                    "an amazing library",
+                    "fun/colorful/creative",
+                    "easy embed",
+                    "downloadable",
+                    "free"
+                ],
                 "fav": "animated 3d emojis",
                 "featured": true
             },
             {
                 "name": "shapefest.com",
                 "link": "https://www.shapefest.com/",
-                "tags": ["huge library", "creative/diverse", "zip download", "free"],
+                "tags": [
+                    "huge library",
+                    "creative/diverse",
+                    "zip download",
+                    "free"
+                ],
                 "fav": "they have everything 3d",
                 "featured": true
             },
             {
                 "name": "3dicons.co",
                 "link": "https://3dicons.co/",
-                "tags": ["huge library", "multi colored", "figma/zip download", "free"],
+                "tags": [
+                    "huge library",
+                    "multi colored",
+                    "figma/zip download",
+                    "free"
+                ],
                 "fav": "really unique 3d icons",
                 "featured": true
             },
             {
                 "name": "superscene.pro",
                 "link": "https://superscene.pro/",
-                "tags": ["amazing library", "fun/colorful/creative", "downloadable", "free"],
+                "tags": [
+                    "amazing library",
+                    "fun/colorful/creative",
+                    "downloadable",
+                    "free"
+                ],
                 "fav": "non-animated 3d emojis",
                 "featured": false
             }
         ],
         [
-            {"identifier": "web design ideas"},
+            {
+                "identifier": "web design ideas"
+            },
             {
                 "name": "sliderrevolution.com",
                 "link": "https://www.sliderrevolution.com/resources/",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "developer's choice",
                 "featured": true
             },
             {
                 "name": "dribbble.com",
                 "link": "https://dribbble.com/",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "good for inspiration",
                 "featured": true
             },
             {
                 "name": "webframe.xyz",
                 "link": "https://webframe.xyz/",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "good for ideas",
                 "featured": false
             }
         ],
         [
-            {"identifier": "logo"},
+            {
+                "identifier": "logo"
+            },
             {
                 "name": "logo.com",
                 "link": "https://logo.com/",
-                "tags": ["logo maker", "Artificial intelligence", "easy/fast", "free"],
+                "tags": [
+                    "logo maker",
+                    "Artificial intelligence",
+                    "easy/fast",
+                    "free"
+                ],
                 "featured": true
             }
         ]
     ],
     "css_simplifiers": [
         [
-            {"identifier": "color generators"},
+            {
+                "identifier": "color generators"
+            },
             {
                 "name": "mycolor.space",
                 "link": "https://mycolor.space/",
-                "tags": ["color pallete generator", "best", "easy to use", "free"],
+                "tags": [
+                    "color pallete generator",
+                    "best",
+                    "easy to use",
+                    "free"
+                ],
                 "fav": "developer's choice",
                 "featured": true
             },
             {
                 "name": "coolors.co",
                 "link": "https://coolors.co/ ",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "most ppl's go to",
                 "featured": true
             },
             {
                 "name": "cssgradient.io",
                 "link": "https://cssgradient.io",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "gradient maker",
                 "featured": false
             },
             {
                 "name": "uigradients.com",
                 "link": "https://uigradients.com/#Influenza",
-                "tags": ["", "", "", "", ""],
+                "tags": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
                 "fav": "gradient maker",
                 "featured": false
             }
         ],
         [
-            {"identifier": "content generator"},
+            {
+                "identifier": "content generator"
+            },
             {
                 "name": "blob maker",
                 "description": "create blob and copy paste css code",
@@ -375,11 +695,12 @@
                 "link": "https://alvarotrigo.com/shadow-gradients/"
             }
         ]
-        
     ],
     "extensions": [
         [
-            {"identifier": "extensions"},
+            {
+                "identifier": "extensions"
+            },
             {
                 "name": "eyedrop",
                 "description": "pick color from websites",
@@ -404,40 +725,62 @@
     ],
     "documentation": [
         [
-            {"identifier": "documentations"},
+            {
+                "identifier": "documentations"
+            },
             {
                 "name": "MDN",
                 "link": "https://developer.mozilla.org/en-US/",
                 "description": "documentation for html/css/js",
-                "tags": [ "detailed description", "HTML", "CSS", "javascript"],
+                "tags": [
+                    "detailed description",
+                    "HTML",
+                    "CSS",
+                    "javascript"
+                ],
                 "fav": "actual comprehensive doc"
             },
             {
                 "name": "css-tricks",
                 "link": "https://css-tricks.com/",
                 "description": "Its name is self-explanatory. You wanna know how to do 'a', 'b', 'c'? Go to css tricks and search it. You learn by reading? then this website is the best for css.",
-                "tags": ["CSS"],
+                "tags": [
+                    "CSS"
+                ],
                 "fav": "for the css zealots and noobs"
             },
             {
                 "name": "w3schools",
                 "link": "https://www.w3schools.com/",
                 "description": "Everyone knows this. Stackoverflow is for errors and w3schools is for web code snippets",
-                "tags": ["All web languages"],
+                "tags": [
+                    "All web languages"
+                ],
                 "fav": "easy to understand"
             },
             {
                 "name": "geeksforgeeks",
                 "link": "https://www.geeksforgeeks.org/",
                 "description": "The god of code documentation. You wanna learn algorithms, data structures or ",
-                "tags": ["All non-web languages"],
+                "tags": [
+                    "All non-web languages"
+                ],
                 "fav": "detailed explanations"
             }
         ]
     ],
     "tools": [
         [
-            {"identifier": "coding tools"},
+            {
+                "identifier": "coding tools"
+            },
+            {
+                "name": "phind",
+                "link": "https://www.phind.com/",
+                "description": "An AI tool that was meant for answering coding related questions. Its the ChatGPT of coding.",
+                "fav": "Junior dev's dream",
+                "featured": true
+            },
             {
                 "name": "figma",
                 "link": "https://www.figma.com/",
@@ -456,25 +799,27 @@
                 "name": "github",
                 "link": "https://github.com/",
                 "description": "push code online",
+                "fav": "developer's choice",
                 "featured": true
             },
             {
                 "name": "netlify",
                 "link": "https://www.netlify.com/",
                 "description": "deploy website for free",
-                "featured": true
+                "featured": true,
+                "fav": "developer's choice"
             },
             {
                 "name": "git bash",
                 "link": "https://git-scm.com/download/win",
-                "description": "its a terminal. idk much more"
+                "description": "its a terminal. idk much more",
+                "fav": "developer's choice"
             },
             {
                 "name": "penpot",
                 "link": "https://penpot.app/",
                 "description": "best design tool incase figma starts to require payment."
             },
-
             {
                 "name": "intellij",
                 "link": "https://code.visualstudio.com/",
@@ -493,7 +838,9 @@
     ],
     "others": [
         [
-            {"identifier": "other"},
+            {
+                "identifier": "other"
+            },
             {
                 "name": "BEM cheat sheet",
                 "link": "https://9elements.com/bem-cheat-sheet/",
@@ -515,21 +862,23 @@
         ]
     ],
     "advice": [
-       [
-        {"identifier": "advice"},
-        {
-            "name": "Lulseged Admasu",
-            "link": "https://lulseged-admasu.netlify.app/",
-            "description": "Don't think you know how to code because you understand what the code is doing and how its working.",
-            "featured": true
-        },
-        {
-            "name": "Kevin Powell",
-            "link": "https://www.youtube.com/shorts/cMtYwPcwcBU",
-            "fav": "watch the YOUTUBE SHORT, this is a link ! ! !",
-            "description": "trying to learn how to code by watching people code is like trying to learn skateboarding by going to your local skatepark and just watching people skateboard.",
-            "featured": true
-        }
-       ]
+        [
+            {
+                "identifier": "advice"
+            },
+            {
+                "name": "Lulseged Admasu",
+                "link": "https://lulseged-admasu.netlify.app/",
+                "description": "Don't think you know how to code because you understand what the code is doing and how its working.",
+                "featured": true
+            },
+            {
+                "name": "Kevin Powell",
+                "link": "https://www.youtube.com/shorts/cMtYwPcwcBU",
+                "fav": "watch the YOUTUBE SHORT, this is a link ! ! !",
+                "description": "trying to learn how to code by watching people code is like trying to learn skateboarding by going to your local skatepark and just watching people skateboard.",
+                "featured": true
+            }
+        ]
     ]
 }
